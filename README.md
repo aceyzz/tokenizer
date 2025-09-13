@@ -6,7 +6,8 @@
 
 ### 🔗 Ressources
 
-- [Documentation technique complète](./project/documentation/README.md)  
+- [Documentation technique complète](./project/README.md)  
+- [Whitepaper](./project/documentation/Whitepaper.md)  
 - [Voir le token sur BscScan](https://testnet.bscscan.com/token/0xcb1dB15828c84231f37dB7D8eB20008F72acf227)
 
 <br>
