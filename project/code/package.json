@@ -1,0 +1,29 @@
+{
+	"name": "cm42-token",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"build": "hardhat compile",
+		"test": "hardhat test",
+		"deploy:testnet": "hardhat run ../deployment/00_deploy_cm42.ts --network bscTestnet",
+		"airdrop": "hardhat run ../deployment/01_airdrop_cm42.ts --network bscTestnet",
+		"demo:pause": "hardhat run ../deployment/11_demo_pause.ts --network bscTestnet",
+		"lint:sol": "solhint 'contracts/**/*.sol'",
+		"lint:ts": "eslint ."
+	},
+	"devDependencies": {
+		"hardhat": "^2.26.0",
+		"@nomicfoundation/hardhat-toolbox": "^6.1.0",
+		"typescript": "^5.9.2",
+		"ts-node": "^10.9.2",
+		"eslint": "^9.35.0",
+		"prettier": "^3.6.2",
+		"solhint": "^6.0.1",
+		"@types/node": "^20.5.9"
+	},
+	"dependencies": {
+		"ethers": "^6.15.0",
+		"@openzeppelin/contracts": "^5.4.0",
+		"dotenv": "^17.2.2"
+	}
+}
