@@ -71,7 +71,7 @@ project/
 
 ## Grade
 
-> En cours d'évaluation
+<img src="./utils/100.png" alt="Grade" width="150">
 
 <br>
 
